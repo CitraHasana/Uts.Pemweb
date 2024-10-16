@@ -1,0 +1,90 @@
+html,
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  nav {
+    display: flex;
+    background-color: #E72569;
+  }
+  nav ul {
+    display: flex;
+    margin-left: auto;
+  }
+  nav ul li {
+    margin-inline: 15px;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+  h1 {
+    font-size: 35pt;
+    margin-bottom: 0px;
+  }
+
+  section {
+    padding-inline: 50px;
+  }
+
+  h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    font-size: 22pt;
+  }
+  hr {
+    margin-bottom: 50px;
+    width: 20%;
+  }
+
+  .info {
+    margin-block: 80px;
+    padding-inline: 200px;
+  }
+
+  .skil {
+    border: solid black 1px;
+    margin-block: 20px;
+  }
+
+  .pendidikan {
+    border: solid black 1px;
+    margin-block: 20px;
+  }
+
+  .sertifikat {
+    border: solid black 1px;
+    margin-block: 20px;
+  }
+  .kontak {
+    border: solid black 1px;
+    margin-block: 20px;
+  }
+
+  .col {
+    display: flex;
+  }
+  .col-img {
+    margin-right: 100px;
+    display: flex;
+  }
+  .col-desc .title{
+    font-weight: bold;
+    font-size: 18pt;
+    margin-bottom: 20px;
+  }
+
+  .box {
+    width: 230px;
+    height: 230px;
+    background-color: #E72569;
+    position: absolute;
+    transform: rotate(10deg);
+    z-index: -10;
+  }
+
